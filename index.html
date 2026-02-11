@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Daksh Jaiswal">
+    <meta name="description" content="Responsive restaurant website using HTML, CSS and JavaScript">
+    <meta name="robots" content="index,follow">
+    <title>Restaurant website</title>
+
+    <!--Font Awesome CDN for icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<header class="navbar">
+  <h2 class="logo-name">Food Favour</h2>
+  <button class="hamburger" aria-label="Open menu">☰</button>
+ 
+
+  <div class="nav-address">
+      <h3 class="first-msg">Deliver to</h3>
+    <div class="icon">
+      <i class="fa-solid fa-location-dot"></i>
+      <h3 class="second-msg">India</h3>
+    </div>
+  </div>
+
+  <!--search area-->
+  <div class="nav-search">
+    <select class="select-search">
+      <option>choose food</option>
+      <option>Indian</option>
+      <option>French</option>
+      <option>Japanese</option>
+      <option>Korean</option>
+      <option>Chinese</option>
+    </select>
+    <input placeholder="enter your food" class="food-search">
+      <div class="search-logo">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+   </div>
+ 
+    <nav class="nav_links" >
+    <a href="#home">home</a>
+    <a href="#menu">Menu</a>
+    <a href="#about">About</a> 
+    <a href="#contact">contact</a>  
+   
+  </nav>
+</header>
+
+<main>
+  <!--Hero section-->
+  <section  class="hero" id="home">
+    <div class="hero-style">
+    <h2>Responsive Restaurant Website.</b></h2>
+    <p>Designed built using HTMl,CSS & JavaScript.</p>
+    <a href="#contact" class="btn">Order Now</a>
+    </div>
+  </section>
+
+  <section class="food-section" id="menu">
+
+    <div class="box">
+      <h2>Indian Cuisine</h2>
+        <img src="pictures/india.jpg" alt="Indian Food"> 
+        <button class="view-btn">View Menu</button>
+    </div>
+    
+    <div class="box">
+      <h2>Japanese Cuisine</h2>
+        <img src="pictures/japanese.webp" alt="Japanese Food">
+        <button class="view-btn">View Menu</button>
+    </div>
+
+    <div class="box">
+      <h3>French Cuisine</h3>
+        <img src="pictures/french.png" alt="French Food">
+        <button class="view-btn">View Menu</button>
+    </div>
+
+  </section>
+
+  <section id="about" class="about">
+   <h2>About This Project</h2>
+    <p>
+    Food Favour is a responsive restaurant website designed using HTML, CSS, and JavaScript.
+    This project demonstrates clean UI design, responsive layouts, and basic JavaScript interaction.
+    </p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+
+    <form id="contactForm">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" placeholder="Your Name" required>
+      
+      <label for="email">Your Email</label>
+      <input type="email" id="email" placeholder="Your Email" required>
+
+       
+      <label for="phone">Your Phone</label>
+      <input type="text" id="phone" placeholder="Your Phone" required>
+
+      <label for="message">Your Message</label>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+
+    <p id="formStatus"></p>
+    <small style="display: block; margin-top: 10px; color: #ccc;">
+      This Form is for demo purpose only
+    </small>
+</section>
+</main>
+
+<footer>
+  <h3>Food Favour</h3>
+  <div class="copyright">
+  <p>© 2026 Food Favour | Portfolio Project</p>
+  <p>Designed & Developed by Daksh Jaiswal</p>
+  <p style="font-size: 12px; color:#aaa;">
+    THis website is a demo project created for freelancing portfolio
+  </p>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
+
+
