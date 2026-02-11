@@ -96,7 +96,7 @@ text-decoration:none;
 /*main section*/
 
 .hero{
-  background-image:url(pictures/home.png);
+  background-image:url(home.png);
   background-size: cover;
   height: 450px;
   display: flex;
@@ -359,3 +359,4 @@ footer p {
   text-align: center;
 }
 }
+
