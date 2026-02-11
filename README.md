@@ -12,7 +12,7 @@ It showcases a modern restaurant layout with menu, gallery, and contact form.
 
 ## Live Demo
 Check out the live website here:  
-[Restaurant Website Live]((https://restaurant-websiteeeeeeeee.netlify.app/))
+[Restaurant Website Live](https://restaurant-websiteeeeeeeee.netlify.app/)
 
 ## Features
 - Fully responsive design (mobile, tablet, desktop)
